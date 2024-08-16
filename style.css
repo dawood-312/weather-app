@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.app-main {
+    min-height: 10vh;
+    width: 30vw;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    background: linear-gradient(to top,
+            #0000007b,
+            #ffffff6e);
+}
+
+.app-main>* {
+    margin-bottom: 20px;
+}
+
+.header h4 {
+    color: #da1e4e;
+    font-weight: 700;
+    font-size: 2.4rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+
+.input-box {
+    width: 100%;
+    background: azure;
+    color: #e4603a;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: left;
+    outline: none;
+    text-transform: capitalize;
+}
+
+form button {
+    letter-spacing: 2px;
+    padding: 10px 18px;
+    margin: 20px 0 0 0;
+    border: none;
+    border-radius: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #000000f0;
+    color: white;
+}
+
+form button:hover {
+    background-color: #2bc058;
+    color: #fff;
+    transition: 0.5s;
+}
+
+/* Weather Report */
+
+#weatherReport {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.align {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card1 {
+    box-shadow: 0px 0px 18px 13px rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    background-image: linear-gradient(45deg,
+            hsl(240, 96%, 9%) 0%,
+            hsl(289deg 100% 21%) 11%,
+            hsl(315deg 100% 27%) 22%,
+            hsl(329deg 100% 36%) 33%,
+            hsl(337deg 100% 43%) 44%,
+            hsl(357deg 91% 59%) 56%,
+            hsl(17deg 100% 59%) 67%,
+            hsl(34deg 100% 53%) 78%,
+            hsl(45deg 100% 50%) 89%,
+            hsl(55deg 100% 50%) 100%);
+}
+
+.align h1 {
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.align h3 {
+    color: white;
+    text-align: center;
+}
+
+.card2 {
+    box-shadow: 0px 0px 18px 13px rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(to bottom, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.card3 {
+    box-shadow: 0px 0px 18px 13px rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    background-image: linear-gradient(0deg,
+            hsl(274deg 100% 73%) 0%,
+            hsl(274deg 49% 57%) 18%,
+            hsl(274deg 35% 42%) 29%,
+            hsl(275deg 33% 28%) 37%,
+            hsl(276deg 27% 15%) 43%,
+            hsl(0deg 0% 0%) 49%,
+            hsl(276deg 27% 15%) 54%,
+            hsl(275deg 33% 28%) 59%,
+            hsl(274deg 35% 42%) 65%,
+            hsl(274deg 49% 57%) 73%,
+            hsl(274deg 100% 73%) 92%);
+}
+
+.card4 {
+    box-shadow: 0px 0px 18px 13px rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    background-image: linear-gradient(45deg,
+            hsl(0deg 0% 12%) 0%,
+            hsl(31deg 16% 24%) 18%,
+            hsl(32deg 23% 36%) 29%,
+            hsl(33deg 26% 49%) 37%,
+            hsl(33deg 48% 63%) 43%,
+            hsl(33deg 100% 77%) 49%,
+            hsl(33deg 48% 63%) 54%,
+            hsl(33deg 26% 49%) 59%,
+            hsl(32deg 23% 36%) 65%,
+            hsl(31deg 16% 24%) 73%,
+            hsl(0deg 0% 13%) 92%);
+}
+
+
+
+
+/* @media screen and (max-width: 800px) {
+    .app-main {
+        width: 94%;
+        padding: 10px;
+    }
+
+    body {
+        min-height: 94vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .container {
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+} */
